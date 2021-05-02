@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CampusEats</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CampusEats</string>
+    <string name="nav_header_subtitle">campuseats@campuseats.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_about">關於我們</string>
+
+    <string name="menu_home">主頁</string>
+    <string name="menu_account">帳戶</string>
+    <string name="menu_order">訂單</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

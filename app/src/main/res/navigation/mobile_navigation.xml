@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_s1"
+        android:name="com.example.campuseats.ui.s1.S1Fragment"
+        android:label="Lekker手作披薩"
+        tools:layout="@layout/fragment_s1" />
+
+    <fragment
+        android:id="@+id/nav_s2"
+        android:name="com.example.campuseats.ui.s2.S2Fragment"
+        android:label="老饕雞排"
+        tools:layout="@layout/fragment_s2" />
+
+    <fragment
+        android:id="@+id/nav_s3"
+        android:name="com.example.campuseats.ui.s3.S3Fragment"
+        android:label="松之屋日式拉麵"
+        tools:layout="@layout/fragment_s3" />
+
+    <fragment
+        android:id="@+id/nav_s4"
+        android:name="com.example.campuseats.ui.s4.S4Fragment"
+        android:label="咱兜灶腳"
+        tools:layout="@layout/fragment_s4" />
+
+    <fragment
+        android:id="@+id/nav_s5"
+        android:name="com.example.campuseats.ui.s5.S5Fragment"
+        android:label="Mr.YEH 健康廚坊"
+        tools:layout="@layout/fragment_s5" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.campuseats.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_S1Fragment"
+            app:destination="@id/nav_s1"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_HomeFragment_to_S2Fragment"
+            app:destination="@id/nav_s2"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_HomeFragment_to_S3Fragment"
+            app:destination="@id/nav_s3"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_HomeFragment_to_S4Fragment"
+            app:destination="@id/nav_s4"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_HomeFragment_to_S5Fragment"
+            app:destination="@id/nav_s5"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.campuseats.ui.gallery.GalleryFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.campuseats.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+
+</navigation>
